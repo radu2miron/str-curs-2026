@@ -1,0 +1,10 @@
+1. Introduction
+
+In the context of the development of the smart city concept, technical water supply systems are becoming a
+critical element in ensuring the sustainable transportation and distribution of vital resources. They play a key role in
+maintaining the stability of the urban environment, meeting the needs of the population, industry, and utilities.
+However, with the development of social and technological infrastructure, water supply networks not only expand,
+covering ever larger territories, but also become more complex and branched. Such a structure increases the risk of
+ruptures and accidents due to equipment wear, uncontrolled loads, or the influence of external factors, such as
+extreme weather conditions. Such emergency situations lead to serious environmental, economic, and social
+consequences, including water leaks, environmental pollution, and interruptions in the supply of urban consumers.
