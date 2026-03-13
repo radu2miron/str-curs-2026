@@ -1,4 +1,4 @@
-# str-curs-2025
+# str-curs-2026
 STR SM Course Examples
 
 Contains additional code examples for the STR course
