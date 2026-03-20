@@ -22,6 +22,6 @@ public class Main {
         int a = 5;
         int b = a;
         a++;
-        System.out.println(b);
+        System.out.printf("a=%d, b=%d", a, b);
     }
 }

@@ -14,14 +14,17 @@ public class Ex1IntStreamExample {
                 .map(i -> i * 2) // multiply each number by 2
                 .sum(); // compute the sum of the kept numbers multiplied by 2
         System.out.println(sum);
+        System.out.println();
 
         System.out.println(Arrays.stream(array) // create an IntStream
                 .summaryStatistics()); // get stream statistics
+        System.out.println();
 
         Arrays.stream(array) // create an IntStream
                 .distinct() // remove duplicates
                 .limit(5) // keep only the first 5 numbers
                 .forEach(System.out::println); // print each number
+        System.out.println();
 
         Arrays.stream(array) // create an IntStream
                 .sorted() // sort numbers
