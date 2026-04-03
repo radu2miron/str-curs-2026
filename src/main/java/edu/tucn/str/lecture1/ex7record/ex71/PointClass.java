@@ -7,11 +7,11 @@ import java.util.Objects;
  */
 public class PointClass {
     private int x;
-    private int z;
+    private int y;
 
     public PointClass(int x, int z) {
         this.x = x;
-        this.z = z;
+        this.y = z;
     }
 
     public int getX() {
@@ -22,12 +22,12 @@ public class PointClass {
         this.x = x;
     }
 
-    public int getZ() {
-        return z;
+    public int getY() {
+        return y;
     }
 
-    public void setZ(int z) {
-        this.z = z;
+    public void setY(int y) {
+        this.y = y;
     }
 
     @Override
@@ -35,19 +35,19 @@ public class PointClass {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         PointClass point = (PointClass) o;
-        return x == point.x && z == point.z;
+        return x == point.x && y == point.y;
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(x, z);
+        return Objects.hash(x, y);
     }
 
     @Override
     public String toString() {
         return "PointClass{" +
                 "x=" + x +
-                ", z=" + z +
+                ", z=" + y +
                 '}';
     }
 }
