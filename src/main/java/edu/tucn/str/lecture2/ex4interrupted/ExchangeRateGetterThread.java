@@ -19,7 +19,7 @@ public class ExchangeRateGetterThread extends Thread {
             try {
                 Thread.sleep(1000);
                 System.out.println(ExchageRateReader.getExchangeRates());
-                Thread.sleep(24 * 60 * 60 * 1000);
+                Thread.sleep(24 * 60 * 60 * 1000); // 1 day
             } catch (InterruptedException e) {
                 System.out.println(this.getName() + " interrupted!");
                 interrupted = true;

@@ -11,7 +11,7 @@ import java.util.stream.IntStream;
  */
 
 public class FileWriterThread extends FileWriter implements Runnable {
-    private static final File FILE = new File("lecture_files/lecture_1_ex1.txt");
+    private static final File FILE = new File("lecture_files/lecture_1_ex2.txt");
     private static final DateTimeFormatter FORMATTER = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
     private String name;
 

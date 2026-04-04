@@ -19,7 +19,7 @@ public class FileUtils {
     public static void generateFile(String fileName) throws IOException {
         long t1 = System.currentTimeMillis();
         try (FileWriter fileWriter = new FileWriter(fileName, true)) {
-            for (int i = 0; i < 10000000; i++) {
+            for (int i = 0; i < 10_000_000; i++) {
                 fileWriter.write("" + new Random().nextInt(Integer.MAX_VALUE) + "\n");
             }
         }
