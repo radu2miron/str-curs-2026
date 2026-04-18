@@ -5,13 +5,13 @@ package edu.tucn.str.lecture3.ex2sync;
  * @version 1
  */
 public class MyThread extends Thread {
-    private static final Object l = new Object();
+    private static final Object LOCK = new Object();
 
     @Override
     public void run() {
         new Activity(1).execute();
 
-        synchronized (l) { //regiune critica
+        synchronized (LOCK) { //regiune critica
             //excludere reciproca (mutual)
             new Activity(2).execute();
         }//.end regiune critica

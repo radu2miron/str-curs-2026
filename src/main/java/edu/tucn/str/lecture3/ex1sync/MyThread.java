@@ -16,7 +16,7 @@ public class MyThread extends Thread {
         new Activity(1).execute();
 
         synchronized (l) { //regiune critica
-            //excludere reciproca (mutual)
+            //excludere reciproca (mutuala)
             new Activity(2).execute();
         }//.end regiune critica
 
